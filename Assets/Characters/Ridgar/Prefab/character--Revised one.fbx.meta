@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 8f16d0a86fca54048b3db27f54ac4c67
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 123434
+    second: {fileID: 2800000, guid: 6cbcc555b7e83e84d9c6784ed98a585b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3737d1b80f59441fa57408836310588c_R_Accessories_mat_Roughness
+    second: {fileID: 2800000, guid: dffbd7b18751b13468e153d89d773b8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 41dc4e7fc7c84f67ad3c0b0da24ac300_N_FabricLegs_mat_Normal_OpenGL
+    second: {fileID: 2800000, guid: 17588ccb31c1fa2498d6cb3d8a8a3533, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 46f653953e034cf7bc020e60dc9981cf_RGB_Accessories_mat_Base_color
+    second: {fileID: 2800000, guid: ed78c79cb14f7234fa839b07e3a4ad88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 570236a023ce411d8c88a078e40e5a29_N_T_Skin1_Barbarian_Male_Cloth_Normal.tga
+    second: {fileID: 2800000, guid: 13856d46e0d2f8440921c95f83026d8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 5db09c22dcf64d59b80dd0f4a715879a_N_Armour01_mat_Normal_OpenGL
+    second: {fileID: 2800000, guid: c97fdd00c889d184ab72a5459cee5dbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 71e9eb97a63d421598f0d6bff5721103_A_T_Skin1_Barbarian_Male_Cloth_Albedo.tga
+    second: {fileID: 2800000, guid: b138fd30a5a2df34987eca86b3b3af75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7930afa81a7341999bfec56899d64766_N_LowFBX_lambert6_Normal
+    second: {fileID: 2800000, guid: 35f5e8d29a4c5e1478e86547ab09e7e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 95a197202781415593535fdb3b496ecb_RGB_LowFBX_lambert6_BaseColor
+    second: {fileID: 2800000, guid: 87768617d8086d948b27a68e60f17737, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 99ae2223d6c84098b69161dab4c92bad_RGB_FabricLegs_mat_Base_color
+    second: {fileID: 2800000, guid: 5c9229a138c13954f9168e6c531a1f1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_1
+    second: {fileID: 2800000, guid: 9eda6ce722f27704f84d23748f544fa7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Image_2
+    second: {fileID: 2800000, guid: a20c99acc22d2b44a80b10fe21b36d2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ML_HumanSkull_Normal
+    second: {fileID: 2800000, guid: e22fa4f872e6d6b4e9eb21a90766413c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ML_HumanSkull_Roughness
+    second: {fileID: 2800000, guid: c98e449750511884b92a5a263b8227db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a528b4f0264f4ba99032bb58ba4a3775_N_Accessories_mat_Normal_OpenGL
+    second: {fileID: 2800000, guid: 1d2a421fec22be54a8f551960cdf15d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c
+    second: {fileID: 2800000, guid: 6a0cf97939ab1bf4ba006f0979443d45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c7d764f9756b4b5983261bf51090efe9__LowFBX_lambert8_BaseColor
+    second: {fileID: 2800000, guid: c4f512cc6cd288441bbdcd182a3a4be8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cd89fa2d7300462dabc0dea28e45007a_RGB_Armour01_mat_Base_color
+    second: {fileID: 2800000, guid: 5ae966412d85e4d4a9da7d712dd51f3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: f96c5761f582492386d388a01e88fbad_N_T_Skin1_Barbarian_Male_Body_Normal.tga
+    second: {fileID: 2800000, guid: 1e7bf409e14666a499161fe2ed8e03a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: skull
+    second: {fileID: 2800000, guid: 1d523d3354dd2604aa79783f03fffb2a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

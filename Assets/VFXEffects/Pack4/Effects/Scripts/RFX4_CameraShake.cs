@@ -23,10 +23,10 @@ public class RFX4_CameraShake : MonoBehaviour
 
     void Update()
     {
-        if (isPlaying && IsEnabled) {
-            isPlaying = false;
-            PlayShake();
-        }
+    //    if (isPlaying && IsEnabled) {
+    //        isPlaying = false;
+    //        PlayShake();
+    //    }
     }
 
     void OnEnable()

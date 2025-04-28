@@ -16,12 +16,16 @@ Material:
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
+  - _SPECGLOSSMAP
   - _SPECULAR_SETUP
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _LIGHTMAPPING_DYNAMIC_LIGHTMAPS
+  - _LIGHTMAPPING_REALTIME
+  - _UVSEC_UV1
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -135,7 +139,7 @@ Material:
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &3274716798112469659
+--- !u!114 &3960674642012295457
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

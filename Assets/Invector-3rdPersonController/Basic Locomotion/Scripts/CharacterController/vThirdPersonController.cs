@@ -1,10 +1,11 @@
-﻿using System.Collections;
+using com.mobilin.games;
+using System.Collections;
 using UnityEngine;
 
 namespace Invector.vCharacterController
 {
     [vClassHeader("THIRD PERSON CONTROLLER", iconName = "controllerIcon")]
-    public class vThirdPersonController : vThirdPersonAnimator
+    public class vThirdPersonController : mvThirdPersonAnimator
     {
         /// <summary>
         /// When Disabling the Controller Component we change the Capsule Collider to Fullsize to avoid sinking in the ground
@@ -108,6 +109,16 @@ namespace Invector.vCharacterController
         /// <summary>
         /// Manage the Control Rotation Type of the Player
         /// </summary>
+        /// 
+        public void setRotateWithCameraTrue()
+        {
+            freeSpeed.rotateWithCamera = true;
+        }
+
+        public void setRotateWithCameraFalse()
+        {
+            freeSpeed.rotateWithCamera = false;
+        }
         public virtual void ControlRotationType()
         {
             if (lockAnimRotation || lockRotation || customAction || isRolling)
@@ -272,6 +283,27 @@ namespace Invector.vCharacterController
         /// Triggers the Jump Animation and set the necessary variables to make the Jump behavior in the <seealso cref="vThirdPersonMotor"/>
         /// </summary>
         /// <param name="consumeStamina">Option to consume or not the stamina</param>
+        /// 
+        public void Jump()
+        {
+            // trigger jump behaviour
+            jumpCounter = jumpTimer;
+            OnJump.Invoke();
+
+            // trigger jump animations
+            if (input.sqrMagnitude < 0.1f)
+            {
+                StartCoroutine(DelayToJump());
+                animator.CrossFadeInFixedTime("Jump", 0.1f);
+            }
+            else
+            {
+                isJumping = true;
+                animator.CrossFadeInFixedTime("JumpMove", .2f);
+            }
+
+         
+        }
         public virtual void Jump(bool consumeStamina = false)
         {
             // trigger jump behaviour

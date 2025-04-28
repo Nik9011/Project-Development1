@@ -30,6 +30,7 @@ TagManager:
   - CoverPoint
   - Interactable
   - AIAction
+  - head
   layers:
   - Default
   - TransparentFX

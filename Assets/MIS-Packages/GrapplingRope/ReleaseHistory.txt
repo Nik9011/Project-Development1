@@ -1,0 +1,103 @@
+v1.4.2
+- Update: Chained-Action with MIS-SoftFlying
+- Update: Set up only the necessary Animator Parameters in each MIS package
+
+v1.4.1
+- Fix: A character could not move when canceling between Grappling-Move
+- Add: Can be used while FreeClimb
+- Add: IsFreeClimb Animator Parameter
+- Add: Hide Shooter/Melee weapons when transitioning to FreeClimb
+- Add: GrapplingRope@HangingAiming_R and GrapplingRope@HangingThrow_R Animation clips
+- Update: Document
+
+v1.4.0
+- Add: Auto Transit To FreeClimb option
+- Update: Compatibility with MIS v2.6.0
+- Update: Optimized Interrupt() and removed LockMovement from GrapplingRopeMove animation state
+
+v1.3.5
+- Update: mvTime to Time according to MIS-ActionShooter removal
+- Update: Chained-Action with MIS-Helicopter-AH64D
+
+v1.3.4
+- Update: Chained-Action with MIS-CarRider
+
+v1.3.3
+- Fix: Ground Distance checking was disabled after calling Interrupt()
+- Fix: The GrapplingRope state was broken when pressing the Aim input again while aiming or throwing
+- Update: The default Cancel input is changed to Y
+
+v1.3.2
+- Fix: Reflected by modifying RotateToDirection() of mvThirdPersonMotor.cs
+
+v1.3.1
+- Update: Chained-Action with MIS-AirController
+- Update: Chained-Action with Invector Push&Pull
+
+v1.3.0
+- Update: Price has been increased
+- Update: MIS v2.0.0 (No backward compatibility)
+- Update: Setup is integrated in All-In-On Setup
+- Update: Adujusts the Animator StateMachines and States positions automatically
+- Update: Skips already existing settings including components and animator controller
+- Update: Document renewal
+
+v1.2.0
+- Update: MIS v1.4.2
+- Update: Document
+- Update: Supports both Melee and Melee UpperBody templates
+- Update: Chained-Action with MIS-Motorcycle
+- Fix: Missing material in SpringRope and GrapplingRopeCollectable prefab
+
+v1.1.3
+- Update: MIS v1.4.0
+- Update: All-In-One Camera State
+
+v1.1.2
+- Update: Rope material
+
+v1.1.1
+- Update: Invector v2.6.1
+
+v1.1.0
+- Add: CanMoveOnAim option
+- Update: Rope material
+- Update: Adjusted chain action with MIS-FreeFlying
+
+v1.0.10
+- Remove: TopDown/Platformer mode
+- Update: MIS v1.3.0
+
+v1.0.9
+- Update: Replace mvRope to mvSpringRope2
+- Add: Gravity multiplier option when activated in the air
+- Add: Move Speed AnimationCurve to be more active action
+
+v1.0.8
+- Update: Optimized MISEditor
+
+v1.0.7
+- Update: Compatibility with MIS v1.2.0
+
+v1.0.6
+- Added: GrapplingMove TwistFlip animation
+- Added: GrapplingMove Camera State for Third Person Mode
+
+v1.0.5
+- Update: Modulized checking a character validation on MIS Editor
+
+v1.0.4
+- Fix: Setup Window size
+- Update: Improved on Chacter converter (Automatically replace default Invector events to MIS's)
+
+v1.0.3
+- Update: Invector v2.6.0
+
+v1.0.2
+- Fix: 2.5D Platformer Shooter demo character setup
+
+v1.0.1
+- Update: Document
+
+v1.0.0
+- First release

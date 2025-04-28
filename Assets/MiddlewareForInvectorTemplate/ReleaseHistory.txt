@@ -1,0 +1,280 @@
+v2.7.14
+- Update: Invector v2.6.4b
+- Update: MIS Setup
+
+v2.7.13
+- Update: The chained-action between MIS-SoftFlying and Invector Parachute has been improved.
+
+v2.7.12
+- Update: AirDash/GroundDash/LedgeClimb/Swimming options adjusted according to Invector 2.6.4 update
+
+v2.7.11
+- Fix: An issue where a character continues to move in one direction when switching to swimming mode after a Water Walk.
+       Please refer to MIS-Swimming document.
+- Fix: Prevent pressing MIS-Crawling and Invector Crouch input at the same time
+- Fix: Null reference error when running Invector Zipline setup more than once
+
+v2.7.9
+- Fix: Auto Aiming option
+- Update: Invector 2.6.4
+- Update: Replaced MISTagLayer class with MISEditorTagLayer
+- Remove: Obsolete functions in mvMISSphereCast
+
+v2.7.8
+- Add: MIS-LockOn2, MIS-VehicleWeapons2 and MIS-Spaceship
+- Add: mvAudioPlayer
+
+v2.7.7
+- Add: CameraState for MIS-GrapplingRope aiming state while MIS-LedgeClimb
+- Add: MIS-LedgeClimb, MIS-LedgeClimb2
+- Add: vPushableObject/vPushObjectPoint converter
+       All vPushableObjects and vPushObjectPoints in Hierarchy can be converted in batches.
+- Update: MIS-LedgeClimb2
+- Update: Invector PushAction Setup
+          Unlike other Invector add-ons, PushAction can be used without converting to MIS.
+          Only MIS-RowingBoat users are required to do if you would like to rotate a PushableObject.
+- Update: vTriggerLadderAction converter
+          All vTriggerLadderActions in Hierarchy can be converted in batches.
+- Update: Invector Zipline v2.0 Setup
+- Update: Invector FreeClimb
+          Climb is blocked when MIS-GrapplingRope is executed during FreeClimb
+- Update: Improved Prefab unpack logic
+
+v2.7.6
+- Fix: Error in MIS tab of MIS Setup due to compatibility issue of AssetDatabase API in Unity2020.
+- Add: MIS-LedgeClimb2
+
+v2.7.5
+- Add: MIS-LedgeClimb
+- Fix: Removed duplicated dlls. (Mandatory for MIS-AI-CarRider users)
+- Update: mvMISSphereCast improvements
+
+v2.7.4
+- Fix: Invector Addon features removal code missing when refactoring to Invector.
+
+v2.7.3
+- Update: Invector Shooter Template v2.6.3
+- Note: Invector Animator Controllers have been modified.
+
+v2.7.2
+- Fix: Compiler errors
+
+v2.7.1
+- Add: MIS-LockOn2 and MIS-VehicleWeapons2
+- Remove: Overriden UpdateCameraStates() from mvThirdPersonInput
+- Remove: Overriden UpdateArmsIK() from mvShooterMeleeInput
+- Remove: mvDrawHideMeleeWeapons.cs
+- Remove: MIS-LockOn codes from mvShooterMeleeInput and mvMeleeCombatInput
+
+v2.7.0
+- NOTE: MIS v2.7.0 update must be imported after removing old MIS
+- NOTE: MIS v2.7.0 requires all MIS packages to be updated
+- Add: mvLadderAction, mvTriggerLadderAction for dynamic EnterMatchTarget positioning which is useful for MIS-Swimming
+- Remove: Invector Swimming setup and chained-action
+- Update: MISCast replaces FilterRayCast
+- Update: Keep all addons including MIS after Reverse Refactoring
+- Update: Possible to import MIS package without MIS Refactoring. Of course, MIS package cannot be used without Refactoring.
+- Update: Removed FSM AI Refactoring notice on the Scene View. Of course, FSM AI Refactoring is required to use the MIS FSM AI packages.
+- Update: Remove INVECTOR_FSM_TEMPLATE feature automatically when the Invector FSM Template is removed
+
+v2.6.9
+- Add: MIS-Swimming
+
+v2.6.8
+- Add: Angel Wing Setup Option
+- Remove: Setting Animator Parameters on MIS Character Converter
+
+v2.6.7
+- Add: Toggle mirroring MIS-AirDash and MIS-GroundDash animation
+
+v2.6.5
+- Add: MIS-SoftFlying
+- Add: AnimationSpeed, MoveSet_ID, HorizontalVelocity and IgnoreFalling in mvThirdPersonAnimator
+- Add: Checking Humanoid Avatar option in MIS and FSM AI Setup for UMA characters
+- Update: Set up only the necessary Animator Parameters in each MIS package
+- Update: Document (Chained-Action)
+
+v2.6.4
+- Add: MIS-CarRider Setup for Enter/Exit of Stand/Bend animations
+
+v2.6.3
+- Add: Supports for MIS-GrapplingRope operation during FreeClimb
+
+v2.6.2
+- Fix: ShooterCover Setup assigned wrong Animator Transition conditon
+- Add: TargetAICar in mvControlAI which is used for MIS-AI-CarRider
+- Add: Provides FindTargetAICarAction/FindTargetAICarDecision
+- Remove: mvExternalRagdollForce
+
+v2.6.1
+- Fix: MIS-AI-CarRider-EVP/RCC compiler errors in mvAIMotor
+  MIS-CarRider users must remove MIS-CarRider v1.3.0 and update to MIS v2.6.1.
+
+v2.6.0
+- Add: MIS-AI (FSM) Refactoring
+- Add: MIS AI Pacakge Setup
+- Add: MIS FSM AI Character Setup
+- Add: MIS-AI-CarRider-EVP, MIS-AI-CarRider-RCC
+- Remove: MIS Refactoring Test mode
+- Update: Polished Setup process
+
+v2.5.4
+- Add: RocketDetector Setup option for MIS-Helicopter-AH64D
+- Fix: INVECTOR Parachue and MIS-CarRider compiler error only when MIS-Helicopter-AH64D does not exist
+
+v2.5.3
+- Fix: INVECTOR Swimming and MIS-MultiJump compiler error
+- Fix: INVECTOR Zipline and MIS-Motorcycle compiler error (However, MIS does not support Zipline chained-action anymore)
+- Update: Chained-Action with MIS-AirDash, MIS-Crawling, MIS-GrapplingHook, MIS-GrapplingRope, MIS-GroundDash, MIS-Motorcycle, FreeClimb, Parachute, Push&Pull, Swimming, Zipline and MIS-Helicopter-AH64D
+
+v2.5.2
+- Fix: vThirdPersonCamera's lock on offset to 0 for a chained-action with ShooterCover
+- Fix: On Under Water events were mis matched in MIS vSwimmingSetup
+- Update: CarRider animator parameter to VehicleRider
+
+v2.5.1
+- Add: MIS-VehicleWeapons
+- Remove: mvDeadExplosion.cs to MIS-VehicleWeapons
+
+v2.5.0
+- Add: MIS-Helicopter
+- Add: mvRemoveParent.cs, mvResetParticleLoop.cs, mvDeadExplosion.cs
+- Update: MISVector library
+
+v2.4.1
+- Remove: MIS-Car
+
+v2.4.0
+- Add: MIS-CarRider-EVP and MIS-CarRider-RCC
+
+v2.3.0
+- Add: MIS-WallRun
+
+v2.2.2
+- Fix: No Damage On Escape/No Damage On Sprint Roll options were always true
+- Update: Removed unused feature: MIS_DES, MIS_ACTION_MELEE
+
+v2.2.1
+- Fix: Removed the default parameter on RotateToDirection()
+       MIS-GrapplingRope/MIS-GrapplingHook users must upgrade them along with this version
+
+v2.2.0
+- Add: MIS-AirController
+- Add: HardLanding feature of MIS-FreeFlying
+- Fix: Wrong position of Exit Animator state
+- Update: Character setup controlls any character which does not own a Canvas
+- Update: Improved UpdateMoveStopWeight(), CheckForwardCollision(), CheckGroundCollision()
+- Update: Chained-Action with MIS-AirController, MIS-AirDash, MIS-Crawling, MIS-GrapplingHook, MIS-GrapplingRope, MIS-GroundDash, MIS-Motorcycle, FreeClimb, Parachute, Push&Pull, Swimming, Zipline
+
+v2.1.1
+- Add: Checking the water level
+- Add: MIS-WaterDash Camera State
+- Fix: Chained-Action between MIS-Lock and any other addon
+
+v2.1.0
+- Add: MIS-WaterDash
+- Add: MIS-WaterDash Aiming Camera State
+- Add: UpdateGroundDistance()
+- Fix: CheckWaterSurfaceDistance()
+- Fix: Dead animation not played in under water
+- Fix: Disabled MIS package setup option checking
+- Fix: Camera locked when jumping from the water surface and attacking with MIS-LockOn then entering the water again
+- Update: Chained-Action between Invector addons
+
+v2.0.0
+- Add: MIS All-In-One Setup (Automatically install all MIS/Invector addons, except Invector Crafting, with one click)
+- Add: Provides selective addon Setup
+- Add: Provides Setup setting save feature
+- Update: Adujusts the Animator StateMachines and States positions automatically which MIS considers only
+- Update: Skips already existing settings including components and animator controller
+- Update: Chained-Action between MIS and Invector addons since MIS v2.0.0
+- Fix: Shooter ThrowManager missing persistent
+
+v1.4.2 (Remove old MIS before update)
+- Update: MIS UI Canvas setup
+- Update: Persistent relative logic
+- Update: Optimize Animator Setup logic
+- Add: UpperBodyOnly avatar mask
+
+v1.4.1
+- Update: MIS-Motorcycle Camera State name
+- Fix: Missing Animator Statemachine name on MIS Package Setup Window
+
+v1.4.0
+- Add: MIS-ActionShooter & MIS-Motorcycle
+- Add: All-In-One MIS CameraState
+
+v1.3.5
+- Update: Invector v2.6.1
+- Update: Collider sizing for smooth motion when transitioning to Ragdoll during Crawling and then back to animator mode.
+- Add: MIS-LockOn
+
+v1.3.4
+- Fix: Compile error
+
+v1.3.3
+- Update: MIS-MultiJump is able to use a different animation clip for each jump
+
+v1.3.2
+- Update: MIS Feature is checked whenever Unity editor reloads assemblies
+
+v1.3.1
+- Update: MIS Animator Parameters
+- Update: Merged some logic with Invector core
+
+v1.3.0
+- Add: MIS-FreeFlying
+
+v1.2.3
+- Update: Supports Invector v2.6.0c
+
+v1.2.2
+- Update: Fixed Compile error
+
+v1.2.1
+- Add: Handling Unity Tags & Layers feature
+- Update: Optimized MISEditor
+
+v1.2.0
+- Add: MIS-GrapplingHook
+
+v1.1.2
+- Update: Modulized checking a character validation on MIS Editor
+- Add: Object screen capture feature for MIS-DES
+
+v1.1.1
+- Update: Improved on UnityEvent cloning
+
+v1.1.0
+- Update: Improved on Chacter converter (Automatically replace default Invector events to MIS's)
+- Add: MID-DES
+
+v1.0.7
+- Update: First release on Asset Store
+
+v1.0.6
+- Update: Invector v2.6.0b
+
+v1.0.5
+- Update: Invector v2.6.0
+
+v1.0.4
+- Update: MIS-Crawling
+
+v1.0.3
+- Add: MIS-Crawling
+- Add: MIS-LandingRoll
+- Update: Replaced vDrawHideShooterWeapons to mvDrawHideShooterWeapons
+- Update: Replaced vDrawHideMeleeWeapons to mvDrawHideMeleeWeapons
+- Update: IKAdjust for MIS-Crawling/MIS-Flying
+
+v1.0.2
+- Add: MIS-GroundDash
+
+v1.0.1
+- Add: MIS-Flying
+- Add: MIS-GrapplingRope
+
+v1.0.0
+- First release
+- Known Issue: IKAdjust will be upgraded on next Invector and MIS upgrade

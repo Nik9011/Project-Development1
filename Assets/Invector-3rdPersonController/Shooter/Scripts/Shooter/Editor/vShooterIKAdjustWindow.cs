@@ -1,4 +1,4 @@
-﻿using Invector.IK;
+using Invector.IK;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -94,8 +94,7 @@ namespace Invector.vShooter
                 DrawGlobalK();
             }
         }
-
-        void OnGUI()
+		protected virtual void OnGUI()
         {
             GUILayout.BeginVertical(skin.GetStyle("WindowBG"));
 
@@ -831,8 +830,7 @@ namespace Invector.vShooter
         //{
         //    DrawSceneGizmos();
         //}
-
-        void Update()
+		protected virtual void Update()
         {
             this.minSize = new Vector2(300, 300);
             if (EditorApplication.isPlaying && !EditorApplication.isPaused)
@@ -1041,8 +1039,7 @@ namespace Invector.vShooter
             position.center = new Rect(0f, 0f, Screen.currentResolution.width, Screen.currentResolution.height).center;
             curWindow.position = position;
             curWindow.ikToAddDefault = ikToAddDefault;
-        }
-        void OnGUI()
+        }		protected virtual void OnGUI()
         {
             style.richText = true;
             GUILayout.Label("<color = yellow><b><size = 20>Some IK Adjusts doesn't have all the default states</size></b></color>",style);
